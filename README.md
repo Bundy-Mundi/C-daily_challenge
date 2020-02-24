@@ -1,12 +1,12 @@
 ## C++ Daily Challenge !!
 
-#### 1. Chocolate Dilemma (Level:Easy)
+### 1. Chocolate Dilemma (Level:Easy)
 
 Two sisters are eating chocolate, whose pieces are represented as subarrays of [l x w].
 
 Write a function that returns true if the total area of chocolate is the same for each sister.
 
-##### To illustrate:
+#### To illustrate:
 
     testFairness([[4, 3], [2, 4], [1, 2]],
     [[6, 2], [4, 2], [1, 1], [1, 1]])
@@ -21,7 +21,7 @@ Write a function that returns true if the total area of chocolate is the same fo
     // Total area of Bertha's chocolate is:
     // 6x2 + 4x2 + 1x1 + 1x1 = 12 + 8 + 1 + 1 = 22
 
-##### Examples:
+#### Examples:
     testFairness([[1, 2], [2, 1]], [[2, 2]]) ➞ true
 
     testFairness([[1, 2], [2, 1]], [[2, 2], [4, 4]]) ➞ false
@@ -32,24 +32,24 @@ Write a function that returns true if the total area of chocolate is the same fo
 
 > [Answer](https://edabit.com/challenge/Ka63T5ZzmEdxZSrBX)
 
-#### 2. Reverse the Order of a String(Level:Easy)
+### 2. Reverse the Order of a String(Level:Easy)
 
 Create a function that takes a string as its argument and returns the string in reversed order.
 
-##### Examples:
+#### Examples:
     reverse("Hello World") ➞ "dlroW olleH"
 
     reverse("The quick brown fox.") ➞ ".xof nworb kciuq ehT"
 
     reverse("Edabit is really helpful!") ➞ "!lufpleh yllaer si tibadE"
 
-##### Notes:
+#### Notes:
 
 You can expect a valid string for all test cases.
 
 > [Answer](https://edabit.com/challenge/gYxDahmv8CbWmiThc)
 
-#### 3. Valid Zip Code(Level:Easy)
+### 3. Valid Zip Code(Level:Easy)
 
 Zip codes consist of 5 consecutive digits. Given a string, write a function to determine whether the input is a valid zip code. A valid zip code is as follows:
 
@@ -57,7 +57,7 @@ Zip codes consist of 5 consecutive digits. Given a string, write a function to d
 * Must not contain any spaces.
 * Must not be greater than 5 digits in length.
 
-##### Examples:
+#### Examples:
     isValid("59001") ➞ true
 
     isValid("853a7") ➞ false
@@ -68,7 +68,7 @@ Zip codes consist of 5 consecutive digits. Given a string, write a function to d
 
 > [Answer](https://edabit.com/challenge/ATK3fdWeyPzN8Xnka)
 
-#### 4. State Names and Abbreviations
+### 4. State Names and Abbreviations
 
 Create a function that filters out an array of state names into two categories based on the second parameter.
 
@@ -76,7 +76,7 @@ Create a function that filters out an array of state names into two categories b
 
 2. Full names <code>full</code>
 
-##### Examples:
+#### Examples:
 
     filterStateNames(["Arizona", "CA", "NY", "Nevada"], "abb")
     ➞ ["CA", "NY"]
@@ -89,7 +89,7 @@ Create a function that filters out an array of state names into two categories b
 
     filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "full")
     ➞ []
-    
+
 > [Answer](https://edabit.com/challenge/9ugiNEhBmxSyDSPMW)
 
 ## Resources:
